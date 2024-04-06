@@ -22,7 +22,7 @@
 export function createMatFromShape(shape: ReadonlyArray<number>, value = null) {
   // Base case: if the shape array is empty, return null.
   if (shape.length === 0) {
-    return null;
+    return [];
   }
 
   // The first element in the shape array determines the size of the current dimension.
