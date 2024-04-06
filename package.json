@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nx build",
     "test": "nx test",
-    "typedoc": "npx typedoc --out docs/api src --plugin typedoc-plugin-markdown"
+    "typedoc": "typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts"
   },
   "dependencies": {
     "tslib": "^2.3.0"
