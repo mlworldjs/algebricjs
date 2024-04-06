@@ -5,7 +5,7 @@
   "scripts": {
     "build": "nx build",
     "test": "nx test",
-    "typedoc":"npx typedoc --out docs/api src --plugin typedoc-plugin-markdown"
+    "typedoc": "npx typedoc --out docs/api src --plugin typedoc-plugin-markdown"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -30,6 +30,7 @@
     "nx": "18.2.3",
     "prettier": "^2.6.2",
     "typedoc": "^0.25.12",
+    "typedoc-plugin-markdown": "^3.17.1",
     "typescript": "~5.4.2",
     "vite": "~5.0.0",
     "vitest": "^1.3.1"
