@@ -1,1 +1,1 @@
-export * from './lib/algebricjs';
+export * from './lib/mat-shape';
