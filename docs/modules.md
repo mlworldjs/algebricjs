@@ -38,4 +38,4 @@ An array representing the shape of the matrix, with each
 
 #### Defined in
 
-[lib/mat-shape.ts:16](https://github.com/mlworldjs/algebricjs/blob/1743d79/src/lib/mat-shape.ts#L16)
+[lib/mat-shape.ts:16](https://github.com/mlworldjs/algebricjs/blob/a8b2567/src/lib/mat-shape.ts#L16)
