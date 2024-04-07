@@ -4,7 +4,7 @@ import { createMatFromShape } from './createMatFromShape'; // Adjust the import 
 describe('createNestedArray', () => {
   it('should create an empty array when called with an empty shape', () => {
     const result = createMatFromShape([]);
-    expect(result).toEqual(null);
+    expect(result).toEqual([]);
   });
 
   it('should create a 1D array with the correct length', () => {
